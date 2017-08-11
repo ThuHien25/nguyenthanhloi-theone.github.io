@@ -1,0 +1,97 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.body-container {
+	margin: 0px auto;
+	width: 500px;
+	border: 1px solid #0033ff;
+}
+.player-profile {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.title {
+	font-weight: bold;
+	padding: 3px;
+}
+.title.title-player {
+	display: block;
+	background: url('../image/title_bg.gif') repeat-x;
+}
+.title.title-your-comment {
+	text-align: center;
+}
+.player-avatar {
+	display: inline-block;
+}
+.player-avatar img {
+	margin: 2px;
+	padding: 0px;
+	max-height: 100px;
+	max-width: 90px;
+}
+.player-info {
+	overflow: scroll;
+	display: inline-block;
+	height: 100px;
+	width: 400px;
+}
+.facts {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.facts ul {
+	margin: 10px;
+	padding-left: 60px;
+	list-style-image: url('../image/star.gif'); 
+}
+.comment {
+	display: block;
+	margin-top: 20px;
+}
+.comment-info {
+	background-color: #ECECEC;
+	padding: 2px 0px 4px 4px;
+}
+.comment-info-post {
+	background: url('../image/comment_bt.gif') no-repeat top left;
+	padding-left:40px;
+	margin-left:20px;
+}
+.your-comment {
+	margin-top: 20px;
+	display: block;
+}
+.your-comment-row {
+	display: table;
+	padding: 1px;
+	margin: 1px;
+}
+.your-comment-left {
+	display: table-cell;
+	width: 150px;
+	padding-left: 3px;
+	vertical-align: middle;
+}
+.your-comment-right {
+	display: table-cell;
+	
+}
+.your-comment-right textarea {
+	width: 330px;
+	height: 100px;
+	padding: 0px;
+}
+.input-comment {
+	height: 20px;
+}
