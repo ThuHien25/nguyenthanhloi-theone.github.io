@@ -15,6 +15,7 @@ a {
 	margin: 0px auto;
 	width: 500px;
 	border: 1px solid #0033ff;
+	padding-bottom: 10px;
 }
 .player-profile {
 	margin-top: 2px;
