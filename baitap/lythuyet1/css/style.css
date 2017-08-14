@@ -19,7 +19,6 @@ a {
 }
 .player-profile {
 	margin-top: 2px;
-	margin-bottom: 2px;
 }
 .title {
 	font-weight: bold;
@@ -34,27 +33,26 @@ a {
 }
 .player-avatar {
 	display: inline-block;
+	
 }
 .player-avatar img {
-	margin: 2px;
-	padding: 0px;
+	margin-bottom: 15px;
+	max-width: 100px;
 	max-height: 100px;
-	max-width: 90px;
 }
 .player-info {
 	overflow: scroll;
 	display: inline-block;
 	height: 100px;
-	width: 400px;
+	width: 395px;
 }
 .facts {
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
 .facts ul {
-	margin: 10px;
-	padding-left: 60px;
-	list-style-image: url('../image/star.gif'); 
+	margin: 5px;
+	padding-left: 40px;
 }
 .comment {
 	display: block;
@@ -66,7 +64,7 @@ a {
 }
 .comment-info-post {
 	background: url('../image/comment_bt.gif') no-repeat top left;
-	padding-left:40px;
+	padding-left:46px;
 	margin-left:20px;
 }
 .your-comment {
@@ -80,19 +78,19 @@ a {
 }
 .your-comment-left {
 	display: table-cell;
-	width: 150px;
+	width: 125px;
 	padding-left: 3px;
+	margin-top: 2px;
 	vertical-align: middle;
 }
 .your-comment-right {
 	display: table-cell;
-	
 }
 .your-comment-right textarea {
 	width: 330px;
 	height: 100px;
-	padding: 0px;
 }
 .input-comment {
+	margin-top: 5px;
 	height: 20px;
 }
