@@ -22,7 +22,6 @@ a {
 }
 .title {
 	font-weight: bold;
-	padding: 3px;
 }
 .title.title-player {
 	display: block;
@@ -33,7 +32,6 @@ a {
 }
 .player-avatar {
 	display: inline-block;
-	
 }
 .player-avatar img {
 	margin-bottom: 15px;
@@ -47,12 +45,11 @@ a {
 	width: 395px;
 }
 .facts {
-	margin-top: 5px;
-	margin-bottom: 10px;
+	margin: 5px 0px 10px 5px;
 }
 .facts ul {
-	margin: 5px;
-	padding-left: 40px;
+	margin: 15px;
+	padding-left: 20px;
 }
 .comment {
 	display: block;
@@ -63,6 +60,7 @@ a {
 	padding: 2px 0px 4px 4px;
 }
 .comment-info-post {
+	font-size: 13px;
 	background: url('../image/comment_bt.gif') no-repeat top left;
 	padding-left:46px;
 	margin-left:20px;
@@ -87,10 +85,12 @@ a {
 	display: table-cell;
 }
 .your-comment-right textarea {
-	width: 330px;
+	margin-top: 2px;
+	width: 360px;
 	height: 100px;
 }
 .input-comment {
+	width: 123px;
 	margin-top: 5px;
 	height: 20px;
 }
