@@ -13,7 +13,7 @@ a {
 }
 .body-container {
 	margin: 0px auto;
-	width: 500px;
+	width: 504px;
 	border: 1px solid #0033ff;
 	padding-bottom: 10px;
 }
@@ -25,6 +25,7 @@ a {
 }
 .title.title-player {
 	display: block;
+	line-height: 25px;
 	background: url('../image/title_bg.gif') repeat-x;
 }
 .title.title-your-comment {
@@ -34,7 +35,7 @@ a {
 	display: inline-block;
 }
 .player-avatar img {
-	margin-bottom: 15px;
+	margin: 7px 0 12px 0px;
 	max-width: 100px;
 	max-height: 100px;
 }
@@ -45,11 +46,14 @@ a {
 	width: 395px;
 }
 .facts {
-	margin: 5px 0px 10px 5px;
+	margin: 5px 0px 40px 3px;
 }
 .facts ul {
-	margin: 15px;
+	margin: 14px 8px 14px 19px;
 	padding-left: 20px;
+}
+.facts img {
+	padding-right: 6px;
 }
 .comment {
 	display: block;
@@ -58,6 +62,7 @@ a {
 .comment-info {
 	background-color: #ECECEC;
 	padding: 2px 0px 4px 4px;
+	margin: 5px 4px 0 4px;
 }
 .comment-info-post {
 	font-size: 13px;
@@ -66,7 +71,7 @@ a {
 	margin-left:20px;
 }
 .your-comment {
-	margin-top: 20px;
+	margin-top: 50px;
 	display: block;
 }
 .your-comment-row {
