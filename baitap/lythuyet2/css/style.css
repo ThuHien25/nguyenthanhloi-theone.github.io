@@ -21,7 +21,7 @@ a {
 	padding-bottom: 20px;
 }
 .de-thi {
-	margin-bottom: 30px;
+	margin: 15px 10px 30px 0px;
 }
 .info {
 	width: 400px;
@@ -40,6 +40,7 @@ a {
 }
 .info-content {
 	line-height: 1.5;
+	width: 432px;
 }
 .info-white {
 	color: #FFF;
@@ -68,7 +69,8 @@ a {
 	background: #232323;
 	float: left;
 	width: 200px;
-	padding: 50px 10px 20px 10px;
+	height: 280px;
+	padding: 50px 20px 20px 20px;
 }
 .img-right {
 	border-top: 1px solid #464646;
@@ -84,11 +86,20 @@ ul {
 	list-style-image: url('../image/list2.gif');
 }
 .col-link li {
-	
 	float: left;
 	width: 200px;
 	margin: 10px 0px 0px 10px;
 }
+.col-link a {
+	color: #595959;
+	text-decoration: underline;
+}
+.content-right {
+	padding-left: 8px;
+}
 .box-text {
-	
+	margin-bottom: 30px;
+}
+.box-text span {
+	color: white;
 }
