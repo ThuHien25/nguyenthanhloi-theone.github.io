@@ -10,7 +10,7 @@ ul {
 }
 .body-container {
 	margin: 0px auto;
-	width: 1400px;
+	width: 1300px;
 	background-color: #2D2F35;
 	color: #FFF;
 	font-size: 10pt;
@@ -20,7 +20,7 @@ ul {
 	border-bottom: 1px solid #474A51;
 }
 .banner {
-	width: 1398px;
+	width: 1300px;
 	border-bottom: 1px solid #474A51;
 	float: left;
 	position: relative;
