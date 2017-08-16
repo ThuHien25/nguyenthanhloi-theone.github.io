@@ -1,5 +1,5 @@
 body {
-	font-family: "Verdana", "Arial", "Helvetica", san-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 * {
 	margin: 0;
@@ -32,15 +32,19 @@ ul {
 	margin: 4px;
 }
 h3,
-h4 {
+h4,
+h5 {
 	font-family: monospace !important;
 	font-size: 19pt;
 	font-weight: normal;
 	color: yellow;
 	margin-bottom: 15px;
 }
+h5 {
+	font-size: 18pt; !important;
+}
 .banner-left p {
-	width: 358px;
+	width: 422px;
 }
 .banner-right {
 	float: left;
@@ -57,7 +61,7 @@ h4 {
 }
 .list-feature ul {
 	margin: 0 auto;
-	padding-left: 200px;
+	padding-left: 148px;
 }
 .list-feature li {
 	float: left;
@@ -78,7 +82,6 @@ h4 {
 	width: 425px;
 	float: left;
 	margin: 10px 40px 2px 120px;
-	padding-bottom: 30px;
 	text-align: justify;
 }
 .contact-left {
