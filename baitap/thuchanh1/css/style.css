@@ -57,7 +57,7 @@ h5 {
 }
 .list-feature {
 	float: left;
-	margin: 40px auto;
+	margin: 40px 0 20px 12px;
 }
 .list-feature ul {
 	margin: 0 auto;
@@ -66,7 +66,7 @@ h5 {
 .list-feature li {
 	float: left;
 	position: relative;
-	margin-left: 25px;
+	margin-left: 15px;
 }
 .top-right {
 	position: absolute;
@@ -80,15 +80,16 @@ h5 {
 }
 .contact-col {
 	width: 425px;
+	height: 440px;
 	float: left;
 	margin: 10px 40px 2px 120px;
 	text-align: justify;
 }
 .contact-left {
-	background: url('../image/home_services_bg_design.gif') right bottom no-repeat;
+	    background: url(../image/home_services_bg_design.gif) 98% 90% no-repeat;
 }
 .contact-right {
-	background: url('../image/home_services_bg_marketing.gif') top left no-repeat ;
+	background: url('../image/home_services_bg_marketing.gif') 1% 3% no-repeat; ;
 }
 .footer {
 	background: #24262A url("../image/bg_footer.gif") no-repeat center;

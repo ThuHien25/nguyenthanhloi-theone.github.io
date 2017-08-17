@@ -25,7 +25,7 @@ a {
 }
 .title.title-player {
 	display: block;
-	line-height: 2;
+	line-height: 1.6;
 	background: url('../image/title_bg.gif') repeat-x;
 }
 .title.title-your-comment {
@@ -35,15 +35,17 @@ a {
 	display: inline-block;
 }
 .player-avatar img {
-	margin: 7px 0 12px 0px;
-	max-width: 100px;
+	margin: 0px 0 23px 4px;
+	max-width: 95px;
 	max-height: 100px;
 }
 .player-info {
 	overflow: scroll;
 	display: inline-block;
-	height: 100px;
-	width: 395px;
+	height: 104px;
+	width: 398px;
+	margin-top: 3px;
+	margin-bottom: 10px;
 }
 .facts {
 	margin: 5px 0px 40px 3px;
@@ -62,7 +64,7 @@ a {
 .comment-info {
 	background-color: #ECECEC;
 	padding: 2px 0px 4px 4px;
-	margin: 5px 4px 0 4px;
+	margin: 1px 4px 0 4px;
 }
 .comment-info-post {
 	font-size: 13px;
