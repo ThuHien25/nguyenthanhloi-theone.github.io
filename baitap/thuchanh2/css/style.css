@@ -21,7 +21,7 @@ ul {
 }
 .header {
 	position: relative;
-	height: 350px;
+	height: 351px;
 	background: url('../image/bg_header.jpg') left bottom no-repeat, url('../image/fill_header.jpg') left bottom no-repeat;
 }
 .logo {
@@ -45,8 +45,8 @@ ul {
 }
 .menu {
 	position: absolute;
-	bottom: 40px;
-	left: 58px;
+	bottom: 39px;
+	left: 59px;
 }
 .menu:after {
 	clear: both;
