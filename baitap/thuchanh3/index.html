@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Bài tập thực hành 3</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src=""></script>
+		<script src="js/main.js"></script>
 	</head>
 	<body>
 		<div class="body-container">
@@ -50,11 +50,11 @@
 								TOP 3 MOVIE TRAILERS
 							</h2>
 							<div class="movie-box">
-								<h3 class="box-title">
+								<h3 class="box-title" onclick="clickopen(1)">
 									The House Bunny (M)
-									<span class="icon-open"></span>
+									<span class="icon icon-open" id="ic-1"></span>
 								</h3>
-								<div class="box-content">
+								<div class="box-content" id="ct-1">
 									<p><img src="image/thumb-1.jpg" alt="image"></p>
 									<p class="mg-b-8">When Playboy bunny Shelly is
 									tossed out of the mansion, she
@@ -63,11 +63,11 @@
 									<a class="watch" href="">Watch Now</a>
 								</div>
 								<div class="clear"></div>
-								<h3 class="box-title">
+								<h3 class="box-title" onclick="clickopen(2)">
 									Eagle Eye (M)
-									<span class="icon-open"></span>
+									<span class="icon icon-close" id="ic-2"></span>
 								</h3>
-								<div class="box-content">
+								<div class="box-content hide" id="ct-2">
 									<p><img src="image/thumb-1.jpg" alt="image"></p>
 									<p class="mg-b-8">When Playboy bunny Shelly is
 									tossed out of the mansion, she
@@ -76,11 +76,11 @@
 									<a class="watch" href="">Watch Now</a>
 								</div>
 								<div class="clear"></div>
-								<h3 class="box-title">
+								<h3 class="box-title" onclick="clickopen(3)">
 									Journey To The Centre Of The Earth(PG)
-									<span class="icon-open"></span>
+									<span class="icon icon-close" id="ic-3"></span>
 								</h3>
-								<div class="box-content">
+								<div class="box-content hide" id="ct-3" >
 									<p><img src="image/thumb-1.jpg" alt="image"></p>
 									<p class="mg-b-8">When Playboy bunny Shelly is
 									tossed out of the mansion, she
@@ -103,7 +103,7 @@
 							<h2 class="title bg-blue">
 								MOVIE REVIEWS
 							</h2>
-							<div class="review-box">
+							<div class="review-box bd-bot">
 								<h3>
 									Eagle Eye
 									<span class="star star-25"></span>
@@ -127,36 +127,40 @@
 								<div class="clear"></div>
 								<a class="watch" href="">View Trailer</a>
 							</div>
-							<div class="review-footer">
-								
+							<div class="bd-bot mr-l-9 mr-r-9"></div>
+							<div class="review-footer mr-l-9">
+								<p><a href=""><b>Local Cinema listings</b></a><span class="rv-ft-r">+ MORE MOVIES</span></p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-right">
-					<h1></h1>
-					<input type="text">
-					<button>SEARCH</button>
+					<h1><img src="image/search.jpg"></h1>
+					<div class="search">
+						<input type="text" class="search-input">
+						<button>SEARCH</button>
+					</div>
 				</div>
 			</div>
 			<div clear="clear"></div>
 			<div class="service">
 				<ul>
-					<li><a href="#"><img src="image/item_1.jpg" alt="">News on your mobile</a></li>
-					<li><a href="#"><img src="image/item_2.jpg" alt="">RSS feeds</a></li>
-					<li><a href="#"><img src="image/item_3.jpg" alt="">Newsletters</a></li>
-					<li><a href="#"><img src="image/item_4.jpg" alt="">Send your news stories</a></li>
-					<li><a href="#"><img src="image/item_5.jpg" alt="">Send your news photos</a></li>
+					<li><a href="#"><img src="image/item_1.jpg" alt=""><br>News on your mobile</a></li>
+					<li><a href="#"><img src="image/item_2.jpg" alt=""><br>RSS feeds</a></li>
+					<li><a href="#"><img src="image/item_3.jpg" alt=""><br>Newsletters</a></li>
+					<li><a href="#"><img src="image/item_4.jpg" alt=""><br>Send your news stories</a></li>
+					<li><a href="#"><img src="image/item_5.jpg" alt=""><br>Send your news photos</a></li>
 				</ul>
 			</div>
-			<div clear="clear"></div>
-			<div class="footer">
+			<div class="clear"></div>
+			<div class="footerx">
 				<p class="footer-link">
 					<a href="#">Help</a> | <a href="#">Contact Us</a> | <a href="#">Advertise with Us</a> |
 					<a href="#">Job Opportunities</a> | <a href="#">Term & Conditions</a> | <a href="#">Privacy Policy</a> |
 					<a href="#">Accessibility</a> | <a href="#">Sitemap</a> | <a href="#">News Headlines from Our Partners</a>
 					<a class="back-top">Back Top</a>
 				</p>
+				<div class="clear"></p>
 				<p class="copyright">Copyright 2008 News Limited. All times AEST (GMT +10)</p>
 			</div>
 		</div>
