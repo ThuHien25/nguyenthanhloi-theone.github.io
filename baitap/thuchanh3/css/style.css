@@ -23,7 +23,7 @@ b {
 	width: 985px;
 	margin: 0px auto;
 	background-color: #292728;
-	color: #1D73A8;
+	color: black;
 }
 .main {
 	width: 985px;
@@ -166,7 +166,7 @@ b {
 	background: url('../image/now-showing-icon.gif') center left no-repeat;
 }
 .show select {
-	width: 208px;
+	width: 203px;
 }
 .review-box {
 	background-color: white;
@@ -208,7 +208,7 @@ b {
 	width: 190px;
 }
 .review-footer {
-	margin: 5px 10px 5px 9px;
+	margin: 5px 10px 5px 8px;
 	padding-left: 20px;
 	background: url('../image/icon_2.jpg') left center no-repeat;
 }
@@ -232,19 +232,33 @@ b {
 	font-size: 8pt;
 	font-weight: bold;
 	color: white;
-	padding: 3px 7px 1px 6px;
+	padding: 3px 9px 1px 9px;
 }
 .service {
 	width: 985px;
 	float: left;
 	text-align: center;
-	border-top: 1px dotted white;
-	padding: 3px 0 4px 0;
+	border-top: 1px dashed white;
+	padding: 3px 0 6px 0;
 	margin-top: 30px;
 }
 .service li {
 	float: left;
-	margin: 3px 44px;
+}
+.item1 {
+	margin-left: 45px;
+}
+.item2 {
+	margin-left: 84px;
+}
+.item3 {
+	margin-left: 120px;
+}
+.item4 {
+	margin-left: 90px;
+}
+.item5 {
+	margin-left: 76px;
 }
 .service a {
 	color: white;
@@ -255,9 +269,10 @@ b {
 	height: 40px;
 	font-size: 11px;
 	background-color: white;
+	color: #1D73A8;
 }
 .footer-link {
-	padding-left: 16px;
+	padding-left: 24px;
 }
 .back-top {
 	float: right;
