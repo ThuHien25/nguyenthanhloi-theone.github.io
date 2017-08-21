@@ -44,7 +44,7 @@ h5 {
 	font-size: 18pt; !important;
 }
 .banner-left p {
-	width: 422px;
+	width: 420px;
 }
 .banner-right {
 	float: left;
@@ -86,14 +86,15 @@ h5 {
 	text-align: justify;
 }
 .contact-left {
-	    background: url(../image/home_services_bg_design.gif) 98% 90% no-repeat;
+	    background: url(../image/home_services_bg_design.gif) 98% 92% no-repeat;
 }
 .contact-right {
-	background: url('../image/home_services_bg_marketing.gif') 1% 3% no-repeat; ;
+	background: url('../image/home_services_bg_marketing.gif') 1% 2% no-repeat; ;
 }
 .footer {
 	background: #24262A url("../image/bg_footer.gif") no-repeat center;
 	border: 1px solid #474A51;
 	text-align: center;
 	padding-bottom: 100px; 
+	margin-top: 8px;
 }

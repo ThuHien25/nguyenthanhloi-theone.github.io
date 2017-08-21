@@ -68,7 +68,7 @@ b {
 }
 .horoscopes-img {
 	float: left;
-	padding: 20px 20px 30px 10px;
+	padding: 25px 20px 50px 10px;
 }
 .horoscopes-img img {
 	max-width: 90px;
@@ -116,7 +116,6 @@ b {
 }
 .news {
 	float: left;
-	border: 1px solid #dadada;
 }
 .news-info {
 	width: 148px;
@@ -127,9 +126,10 @@ b {
 .news-img {
 	width: 125px;
 	float: left;
+	margin-bottom: -4px;
 }
 .news-img img {
-	max-height: 120px;
+	max-height: 122px;
 	max-width: 125px;
 }
 .hr {
