@@ -13,7 +13,6 @@ a {
 }
 .container {
 	margin: 50px auto 20px 80px;
-	
 }
 .col-left {
 	float: left;
@@ -21,7 +20,7 @@ a {
 	padding-bottom: 20px;
 }
 .de-thi {
-	margin: 10px 10px 20px 0px;
+	margin: 18px 10px 32px 0px;
 }
 .info {
 	width: 400px;
@@ -54,7 +53,7 @@ a {
 	background: url('../image/list3.gif') no-repeat left top;
 }
 .info-link {
-	margin: 40px 10px 15px 0px;
+	margin: 80px 10px 15px 20px;
 }
 .info-title {
 	float: left;
@@ -72,8 +71,8 @@ a {
 	background: #232323;
 	float: left;
 	width: 200px;
-	height: 280px;
-	padding: 50px 20px 35px 20px;
+	height: 320px;
+	padding: 70px 20px 30px 20px;
 }
 .img-right {
 	border-top: 1px solid #464646;
@@ -101,7 +100,7 @@ ul {
 	padding-left: 8px;
 }
 .box-text {
-	margin-bottom: 30px;
+	margin-bottom: 58px;
 }
 .box-text span {
 	color: white;
