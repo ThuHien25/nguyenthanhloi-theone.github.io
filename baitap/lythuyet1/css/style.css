@@ -95,6 +95,7 @@ a {
 	margin-top: 2px;
 	width: 360px;
 	height: 100px;
+	resize: none;
 }
 .input-comment {
 	width: 123px;
