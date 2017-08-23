@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8" />
+		<title>Bài tập thực hành 3</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="body-container">
+			<div class="main"><!-- Container Main -->
+				<div class="col-left"><!-- Collum Main Left -->
+					<div class="celebrity"><!-- Main celebrity -->
+						<div class="celebrity-col">
+							<h2 class="title bg-red title-1">
+								DAILY CELEBRITY GOSSIP
+							</h2>
+							<div class="col-1">
+								<div class="celebrity-box">
+									<p class="celebrity-img"><img src="image/news-1.png" alt="img">
+									<img src="image/h3-shootingstar.gif" alt="img"></p>
+									<span class="more">MORE</span>
+								</div>
+								<b class="pd-l-10">+ RUSSELL CROWE + MORE ...</b>
+								<p class="pd-l-10 size-1">RUSSELL Crowe's son to marry Keith & Nicole's daugher,
+								plus Renee Zellweger reveals her breast cancer scare</p>
+							</div>
+						</div>
+						<div class="celebrity-col">
+							<h2 class="title bg-red">
+								DAILY CELEBRITY PICS
+							</h2>
+							<div class="celebrity-box">
+								<p class="celebrity-img"><img src="image/news-2.png" alt="img">
+								<img src="image/h3-showbuzz.gif" alt="img"></p>
+								<span class="more">MORE</span>
+							</div>
+							<b class="pd-l-10">+ BECKHAMS, CLAUDIA SCHIFFER</b>
+							<p class="pd-l-10 size-1">VICTORIA and David Beckham dine out in NY, as top model
+							Claudia Schiffer and Eva Herzigova hit the shops in Milan.</p>
+						</div>
+						<div class="clear"></div>
+						<div class="col-left-footer">
+							<img src="image/confidential-logo.gif" alt="image">
+						</div>
+					</div>
+					<div class="movie"><!-- Cotainer Main Movie -->
+						<div class="movie-col mr-r-9"><!-- Cotainer Main Trailer -->
+							<h2 class="title bg-blue">
+								TOP 3 MOVIE TRAILERS
+							</h2>
+							<div class="movie-box">
+								<h3 class="box-title" onclick="clickopen(1)">
+									The House Bunny (M)
+									<span class="icon icon-open" id="ic-1"></span>
+								</h3>
+								<div class="box-content" id="ct-1">
+									<p><img src="image/thumb-1.jpg" alt="image"></p>
+									<p class="mg-b-8">When Playboy bunny Shelly is
+									tossed out of the mansion, she
+									falls in with the sorority girls form
+									Zeta Alpha Zeta.</p>
+									<a class="watch" href="">Watch Now</a>
+								</div>
+								<div class="clear"></div>
+								<h3 class="box-title" onclick="clickopen(2)">
+									Eagle Eye (M)
+									<span class="icon icon-close" id="ic-2"></span>
+								</h3>
+								<div class="box-content hide" id="ct-2">
+									<p><img src="image/thumb-1.jpg" alt="image"></p>
+									<p class="mg-b-8">When Playboy bunny Shelly is
+									tossed out of the mansion, she
+									falls in with the sorority girls form
+									Zeta Alpha Zeta.</p>
+									<a class="watch" href="">Watch Now</a>
+								</div>
+								<div class="clear"></div>
+								<h3 class="box-title" onclick="clickopen(3)">
+									Journey To The Centre Of The Earth(PG)
+									<span class="icon icon-close" id="ic-3"></span>
+								</h3>
+								<div class="box-content hide" id="ct-3" >
+									<p><img src="image/thumb-1.jpg" alt="image"></p>
+									<p class="mg-b-8">When Playboy bunny Shelly is
+									tossed out of the mansion, she
+									falls in with the sorority girls form
+									Zeta Alpha Zeta.</p>
+									<a class="watch" href="">Watch Now</a>
+								</div>
+								<div class="show">
+									<p>Now Showing
+										<select>
+											<option selected>Select Movie</option>
+											<option>Select Movie</option>
+											<option>Select Movie</option>
+										</select>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="movie-col mr-l-9"><!-- Main Review -->
+							<h2 class="title bg-blue">
+								MOVIE REVIEWS
+							</h2>
+							<div class="review-box bd-bot">
+								<h3>
+									Eagle Eye
+									<span class="star star-25"></span>
+								</h3>
+								<p class="review-img"><img src="image/thumb-2.jpg" alt="image"></p>
+								<p class="review-content">SHIA LaBeouf hits the ground running in Eagle eye,
+								an againts the clock conspiracy thriller with a timely
+								technological t...</p>
+								<div class="clear"></div>
+								<a class="watch" href="">View Trailer</a>
+							</div>
+							<div class="review-box">
+								<h3>
+									House Bunny
+									<span class="star star-20"></span>
+								</h3>
+								<p class="review-img"><img src="image/thumb-2.jpg" alt="image"></p>
+								<p class="review-content">IF YOU left Legally Blonde and Revenge Of The Nerds
+								DVD in a darkened room for long enough, something like
+								The House Bun...</p>
+								<div class="clear"></div>
+								<a class="watch" href="">View Trailer</a>
+							</div>
+							<div class="bd-bot mr-l-9 mr-r-9"></div>
+							<div class="review-footer mr-l-9">
+								<p><a href=""><b>Local Cinema listings</b></a><span class="rv-ft-r">+ MORE MOVIES</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-right"><!-- Container Right SREACH -->
+					<h1><img src="image/search.jpg" alt="search"></h1>
+					<div class="search">
+						<input type="text" class="search-input">
+						<button>SEARCH</button>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="service"><!-- Container Service -->
+				<ul>
+					<li class="item1"><a href="#"><img src="image/item_1.jpg" alt="Item 1"><br>News on your mobile</a></li>
+					<li class="item2"><a href="#"><img src="image/item_2.jpg" alt="Item 2"><br>RSS feeds</a></li>
+					<li class="item3"><a href="#"><img src="image/item_3.jpg" alt="Item 3"><br>Newsletters</a></li>
+					<li class="item4"><a href="#"><img src="image/item_4.jpg" alt="Item 4"><br>Send your news stories</a></li>
+					<li class="item5"><a href="#"><img src="image/item_5.jpg" alt="Item 5"><br>Send your news photos</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="footerx"><!-- Footer -->
+				<p class="footer-link"><!-- Footer Link -->
+					<a href="#">Help</a> | <a href="#">Contact Us</a> | <a href="#">Advertise with Us</a> |
+					<a href="#">Job Opportunities</a> | <a href="#">Term & Conditions</a> | <a href="#">Privacy Policy</a> |
+					<a href="#">Accessibility</a> | <a href="#">Sitemap</a> | <a href="#">News Headlines from Our Partners</a>
+					<a class="back-top" href="">Back Top</a>
+				</p>
+				<div class="clear"></div>
+				<p>Copyright 2008 News Limited. All times AEST (GMT +10)</p>
+			</div>
+		</div>
+	</body>
+</html>

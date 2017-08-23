@@ -1,0 +1,143 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #0a6395;
+}
+b {
+	color: #0a6395;
+	font-size: 10pt;
+}
+.container {
+	width: 310px;
+	margin: 0 auto;
+	background-color: #E6F3FB;
+	padding: 5px 6px 20px 10px;
+}
+.title {
+	font-size: 12pt;
+	color: black;
+}
+.blogroll {
+	border-top: 3px solid #ffa500;
+	background-color: #fff;
+	margin-bottom: 2px;
+}
+.blogroll-block {
+	width: 300px;
+	float: left;
+	padding: 10px 0px 10px 10px;
+}
+.clear {
+	clear: left;
+	display: block;
+}
+.blogroll-img {
+	float: left;
+	border: 1px solid #E2E2E2;
+}
+.blogroll-img img {
+	margin: 1px 1px -1px 1px;
+	max-width: 164px;
+	max-height: 84px;
+}
+.blogroll-info {
+	width: 110px;
+	float: left;
+	margin: 3px 0px 0px 10px;
+	padding-right: 1px;
+}
+.blogroll li {
+	background-color: #faf0bf;
+	border: 1px solid #fff;
+	padding: 10px;
+	color: #4D81A0;
+}
+.horoscopes-block {
+	float: left;
+	background-color: #fff;
+}
+.horoscopes-img {
+	float: left;
+	padding: 25px 20px 50px 10px;
+}
+.horoscopes-img img {
+	max-width: 90px;
+	max-height: 100px;
+}
+.horoscopes-info {
+	padding: 27px 6px 15px 0px;
+}
+.info-title {
+	color: black;
+}
+.info-time {
+	color: #999;
+	font-size: 8pt;
+}
+.info-content {
+	font-size: 11px;
+	line-height: 1.4;
+}
+.info-content a {
+	text-decoration: underline;
+}
+.horoscopes-footer {
+	float: left;
+	font-size: 10pt;
+	background-color: #F4F4EC;
+	width: 310px;
+	height: 50px;
+}
+.horoscopes-footer-left {
+	float: left;
+	width: 220px;
+	padding: 10px 0px 10px 20px;
+}
+.horoscopes-footer-img {
+	width: 70px;
+	float: left;
+}
+.horoscopes-footer-img img {
+	max-height: 50px;
+	max-width: 75px;
+}
+.mg-1 {
+	margin-top: 20px;
+}
+.news {
+	float: left;
+}
+.news-info {
+	width: 148px;
+	float: left;
+	padding: 20px 14px 10px 20px;
+	line-height: 1.4;
+}
+.news-img {
+	width: 125px;
+	float: left;
+	margin-bottom: -4px;
+}
+.news-img img {
+	max-height: 122px;
+	max-width: 125px;
+}
+.hr {
+	margin: 8px 0 10px 0;
+	border-bottom: 2px solid #DADEE0;
+}
+.competitions {
+	border: 1px solid #dadada ;
+	background-color: white;
+	padding: 8px
+}
