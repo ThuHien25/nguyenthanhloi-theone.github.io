@@ -1,8 +1,7 @@
 /*
  * Feature Calendar
  * Auth: Nguyen Thanh Loi
- * Idea: write 1 function create calendar follow to value put in
- * year , month.
+ * Idea: write 1 function create calendar follow to value put in year , month.
  */
 var now = new Date();
 var cur_Mon = now.getMonth();
