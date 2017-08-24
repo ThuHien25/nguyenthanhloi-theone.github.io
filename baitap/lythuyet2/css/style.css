@@ -53,14 +53,14 @@ a {
 	background: url('../image/list3.gif') no-repeat left top;
 }
 .info-link {
-	margin: 80px 10px 15px 20px;
+	margin: 90px 10px 15px 20px;
 }
 .info-title {
 	float: left;
 	color: white;
 }
 .hr {
-	margin: 20px 20px 20px 2px;
+	margin: 20px 20px 10px 2px;
 	padding-bottom: 10px;
 	border-top: 1px dotted #3f3f41;
 }
@@ -72,7 +72,7 @@ a {
 	float: left;
 	width: 200px;
 	height: 320px;
-	padding: 70px 20px 30px 20px;
+	padding: 70px 20px 10px 20px;
 }
 .img-right {
 	border-top: 1px solid #464646;
