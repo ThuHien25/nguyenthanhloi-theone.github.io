@@ -1,8 +1,7 @@
 /*
- *Feature Calendar
- *Auth: Nguyen Thanh Loi
- *Idea: write 1 function create calendar follow to value put in
- *year , month.
+ * Feature Calendar
+ * Auth: Nguyen Thanh Loi
+ * Idea: write 1 function create calendar follow to value put in year , month.
  */
 var now = new Date();
 var cur_Mon = now.getMonth();
@@ -17,9 +16,9 @@ slYear();
 chooseDay();
 
 /*
- *Create alendar follow to Year , Month put in function
- *@param valueYear: year
- *@param valueMon: Month
+ * Create alendar follow to Year , Month put in function
+ * @param valueYear: year
+ * @param valueMon: Month
  */
 function createCalendar(valueYear, valueMon) {
     parseInt(valueYear);
@@ -46,7 +45,8 @@ function createCalendar(valueYear, valueMon) {
 }
 
 /*
- *Event Click < or > : Prev or Next Month
+ * Event Click < or > : Prev or Next Month
+ * @param vallueMon: -1: prev Month . +1 Next Month
  */
 function btnMon(valueMon) {
     cur_Mon = parseInt(cur_Mon) + parseInt(valueMon);
@@ -62,7 +62,8 @@ function btnMon(valueMon) {
 }
 
 /*
- *Event Click << or >> : Prev or Next Year
+ * Event Click << or >> : Prev or Next Year
+ * @param valueYear: -1: Prev Year . +1 Next Year
  */
 function btnYear(valueYear) {
     cur_Year = parseInt(cur_Year) + parseInt(valueYear);
@@ -70,7 +71,7 @@ function btnYear(valueYear) {
 }
 
 /*
- *Show Year for Select Year
+ * Show Year for Combobox Select Year
  */
 function slYear() {
     var i;
@@ -81,7 +82,7 @@ function slYear() {
 }
 
 /*
- *Click Year. Value Year -> Calendar Year
+ * Click Year. Value Year -> Calendar Year
  */
 function pickYear() {
     cur_Year = parseInt(show_Year.value);
@@ -89,7 +90,7 @@ function pickYear() {
 }
 
 /*
- *Click Month. Value Month -> Calendar Month of Year
+ * Click Month. Value Month -> Calendar Month of Year
  */
 function pickMon() {
     cur_Mon = parseInt(show_Month.value);
@@ -97,7 +98,7 @@ function pickMon() {
 }
 
 /*
- *Current Month , Year Select;
+ * Current Month , Year Select;
  */
 function curTime() {
     show_Year.value = cur_Year;
