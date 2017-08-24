@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
-	<title>Slider</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Slider</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-	<div class="container">
-		<h3>SLIDER IMAGES</h3>
-		<div class="wrap">
-			<div class="image">
-				<div class="image-slider animate-top">
-					<image src="image/xinh (1).jpg" alt="crush">
-				</div>
-				<div class="image-slider animate-top">
-					<image src="image/xinh (2).jpg" alt="crush">
-				</div>
-				<div class="image-slider animate-top">
-					<image src="image/xinh (4).jpg" alt="crush">
-				</div>
-			</div>
-			<button class="prev" onclick="btnClick(-1)">
-					<
+    <div class="container">
+        <h3>SLIDER IMAGES</h3>
+        <div class="wrap">
+            <div class="image">
+                <div class="image-slider animate-top">
+                    <image src="image/xinh1.jpg" alt="crush">
+                </div>
+                <div class="image-slider animate-top">
+                    <image src="image/xinh2.jpg" alt="crush">
+                </div>
+                <div class="image-slider animate-top">
+                    <image src="image/xinh4.jpg" alt="crush">
+                </div>
+            </div>
+            <button class="prev" onclick="btnClick(-1)">
+					&lt;
 			</button>
-			<button class="next" onclick="btnClick(+1)">
-					>
+            <button class="next" onclick="btnClick(+1)">
+					&gt;
 			</button>
-			<div class="dot">
-				<div class="image-mini" onclick="curMiniImg(0)">
-					<image src="image/xinh (1).jpg" alt="crush">
-				</div>
-				<div class="image-mini" onclick="curMiniImg(1)">
-					<image src="image/xinh (2).jpg" alt="crush">
-				</div>
-				<div class="image-mini" onclick="curMiniImg(2)">
-					<image src="image/xinh (4).jpg" alt="crush">
-				</div>
-			</div>
-		</div>
-	</div>
-	<h3 id="demo"></h3>
-	<h3 id="demox"></h3>
-	<script type="text/javascript" src="js/slider.js" ></script>
+            <div class="dot">
+                <div class="image-mini" onclick="curMiniImg(0)">
+                    <image src="image/xinh1.jpg" alt="crush">
+                </div>
+                <div class="image-mini" onclick="curMiniImg(1)">
+                    <image src="image/xinh2.jpg" alt="crush">
+                </div>
+                <div class="image-mini" onclick="curMiniImg(2)">
+                    <image src="image/xinh4.jpg" alt="crush">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/slider.js"></script>
 </body>
+
 </html>
