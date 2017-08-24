@@ -11,7 +11,7 @@ var img_mini = document.getElementsByClassName("image-mini");
 showImage(initImage);
 
 /*
-	Show Image, Auto Image 2s
+	Show Image, Auto Image 3s
 	@param value_Img : value point image for functon
 */
 function showImage(valueImg) {
@@ -40,7 +40,10 @@ function btnClick(valueClick) {
 	showImage(initImage += valueClick);
 }
 
-// function image mini current
-function curMiniImg(n) {
+/*
+ function image mini current
+ @param n : value image current
+*/
+ function curMiniImg(n) {
 	showImage(initImage = n)
 }
