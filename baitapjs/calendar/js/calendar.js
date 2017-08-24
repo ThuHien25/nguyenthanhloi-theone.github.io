@@ -27,3 +27,5 @@ function createCalendar(valueYear,valueMon) {
 	demo.innerHTML = lastDate;
 
 }
+
+// function click prev or next month
