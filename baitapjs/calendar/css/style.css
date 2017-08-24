@@ -1,3 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+table {
+	background: rgba(255, 110, 180, 0.6);
+	text-align: center;
+
+}
 td {
-	 border: 1px solid black;
+	width: 50px;
+	height: 25px;
+	cursor: pointer;
+	border: 1px solid pink;
+}
+td:hover {
+	border: 1px solid red;
+}
+.container {
+	margin: 10px 0px 0px 300px;
+	position: relative;
+}
+.wrapp {
+	background: white url('../image/girl.jpg') left no-repeat;
+	padding: 300px 0px 0px 380px;
+}
+.weekdays {
+	font-size: 15pt;
+	font-weight: bold;
+	color: blue;
+	background: rgba(255, 110, 180, 0.8);
+}
+.weekdays td:hover {
+	border: 1px solid pink !important;
+}
+.calendar {
+	background: rgba(151, 255, 255, 0.8);
+	color: red;
+	font-size: 16pt;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 10px 10px 30px;
+	width: 325px;
+}
+.control {
+	font-size: 17pt;
+	font-weight: bold;
+}
+.control td:hover {
+	color: white;
+	background: rgba(255, 110, 180, 0.9);
+}
+select {
+	height: 30px;
+	color: blue;
+	font-weight: bold;
 }
