@@ -11,12 +11,14 @@ ul {
 a {
 	text-decoration: none;
 }
+/*Body container */
 .body-container {
 	margin: 0px auto;
 	width: 504px;
 	border: 1px solid #0033ff;
 	padding-bottom: 10px;
 }
+/* Player profile */
 .player-profile {
 	margin-top: 2px;
 }
@@ -47,6 +49,7 @@ a {
 	margin-top: 3px;
 	margin-bottom: 10px;
 }
+/* Facts */
 .facts {
 	margin: 5px 0px 50px 3px;
 }
@@ -57,6 +60,7 @@ a {
 .facts img {
 	padding-right: 6px;
 }
+/* Commmnets */
 .comment {
 	display: block;
 	margin-top: 20px;
@@ -72,6 +76,7 @@ a {
 	padding-left:50px;
 	margin-left:24px;
 }
+/* Your Comment */
 .your-comment {
 	margin: 50px 0 0 1px;
 	display: block;

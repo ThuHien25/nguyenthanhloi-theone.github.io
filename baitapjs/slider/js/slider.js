@@ -11,7 +11,7 @@ showImage(initImage);
 
 /*
  *Show Image, Auto Image 3s
- *@param value_Img : value point image for functon
+ *@param {int} value_Img : value point image for functon
  */
 function showImage(valueImg) {
     if (valueImg < 0) {
@@ -35,7 +35,7 @@ function showImage(valueImg) {
 
 /*
  *If click btn next or prev , image will next or prev image
- *@param valueClick: -1: prev and +1 next
+ *@param {int} valueClick: -1: prev and +1 next
  */
 function btnClick(valueClick) {
     showImage(initImage += valueClick);
@@ -43,7 +43,7 @@ function btnClick(valueClick) {
 
 /*
  *function image mini current
- *@param n : value image current
+ *@param {int} n : value image current
  */
 function curMiniImg(n) {
     showImage(initImage = n)

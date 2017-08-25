@@ -15,10 +15,12 @@ a {
 ul {
 	list-style-type: none;
 }
+/* Body Contaier */
 .body-container {
 	width: 1200px;
 	margin: 0 auto;
 }
+/* Header */
 .header {
 	position: relative;
 	height: 351px;
@@ -43,6 +45,7 @@ ul {
 	color: #63636e;
 	font-size: 30pt;
 }
+/* Menu */
 .menu {
 	position: absolute;
 	bottom: 39px;
@@ -63,6 +66,7 @@ ul {
 	margin: 13px 0px 10px 70px;
 	padding-bottom: 30px;
 }
+/* Main */
 .main {
 	width: 1000px;
 	margin-top: 50px;
@@ -71,6 +75,7 @@ ul {
 .main:after {
 	clear: both;
 }
+/* collum Left */
 .main-left {
 	float: left;
 	width: 218px;
@@ -94,6 +99,7 @@ ul {
 	text-decoration: underline;
 	color: #666;
 }
+/* Collum Right */
 .main-right {
 	width: 400px;
 	padding-top: 38px;
@@ -121,6 +127,7 @@ ul {
 .clear {
 	clear: left;
 }
+/* Footer */
 .footer {
 	width: 700px;
 	border-top: 1px dotted #2A2A2A;
