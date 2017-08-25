@@ -3,41 +3,154 @@
 <head>
 	<title>FormAJAX</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/calendar.css">
 </head>
 <body>
 	<div class="container">
-		<table>
-			<tr>
-				<td>Username:</td>
-				<td><input type="text" name="username"></td>
-			</tr>
-			<tr>
-				<td>Passwork:</td>
-				<td><input type="password" name="passwork"></td>
-			</tr>
-			<tr>
-				<td>Email:</td>
-				<td><input type="email" name="email"></td>
-			</tr>
-			<tr>
-				<td>Birthday:</td>
-				<td>
-					<input type="text" name="birthday">
-					<div>
+		<form action="POST">
+			<table>
+				<tr>
+					<td>Username:</td>
+					<td>
+						<input type="text" name="username" onchange="checkInputUserName()">
+						<span id="error_username"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Passwork:</td>
+					<td>
+						<input type="password" name="password"  onchange="checkInputPassword()">
+						<span id="error_password"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td>
+						<input type="email" name="email"  onchange="checkInputEmail()">
+						<span id="error_email"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Birthday:</td>
+					<td>
+						<div onclick="showCalendar()">
+					    	<input id="show_DMY" name="birthday" class="" value="--/--/----" onchange="checkInputBirthday()" disabled>
+					    </div>
+					    <span id="error_birthday"></span>
+					    <table id="table_calendar" class="table-calendar" >
+					        <tr class="control">
+					            <td onclick="btnYear(-1)">
+					                &lt;&lt;
+					            </td>
+					            <td onclick="btnMon(-1)">
+					                &lt;
+					            </td>
+					            <td colspan="2">
+					                <select id="select_month" onchange="pickMon()">
+										<option value="0">1  - January </option>
+										<option value="1">2  - February </option>
+										<option value="2">3  - March </option>
+										<option value="3">4  - April </option>
+										<option value="4">5  - May </option>
+										<option value="5">6  - June </option>
+										<option value="6">7  - July </option>
+										<option value="7">8  - August </option>
+										<option value="8">9  - September </option>
+										<option value="9">10 - October </option>
+										<option value="10">11 - November </option>
+										<option value="11">12 - December </option>
+									</select>
+					            </td>
+					            <td>
+					                <select id="select_year" onchange="pickYear()">
+									</select>
+					            </td>
+					            <td onclick="btnMon(+1)">
+					                &gt;
+					            </td>
+					            <td onclick="btnYear(+1)">
+					                &gt;&gt;
+					            </td>
+					        </tr>
+					        <tr class="weekdays">
+					            <td>Sun</td>
+					            <td>Mon</td>
+					            <td>Tue</td>
+					            <td>Web</td>
+					            <td>Thu</td>
+					            <td>Fri</td>
+					            <td>Sat</td>
+					        </tr>
+					        <tr>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					        </tr>
+					        <tr>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					        </tr>
+					        <tr>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					        </tr>
+					        <tr>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					        </tr>
+					        <tr>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					        </tr>
+					        <tr>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					            <td></td>
+					        </tr>
+					    </table>
+					</td>
+				</tr>
+				<tr>
+					<td>
 
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td>
-
-				</td>
-				<td>
-				
-				</td>
-			</tr>
-		</table>
+					</td>
+					<td>
+						<button onclick="">Xác nhận</button>
+						<button onclick="">Resert</button>
+					</td>
+				</tr>
+			</table>
+		</form>
 	</div>
 	<script type="text/javascript" src="js/formajax.js"></script>
+	<script type="text/javascript" src="js/calendar.js"></script>
 </body>
 </html>

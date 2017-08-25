@@ -17,16 +17,19 @@ b {
 	color: #0a6395;
 	font-size: 10pt;
 }
+/* Container */
 .container {
 	width: 310px;
 	margin: 0 auto;
 	background-color: #E6F3FB;
 	padding: 5px 6px 20px 10px;
 }
+/* Title */
 .title {
 	font-size: 12pt;
 	color: black;
 }
+/* Blogroll */
 .blogroll {
 	border-top: 3px solid #ffa500;
 	background-color: #fff;
@@ -62,6 +65,7 @@ b {
 	padding: 10px;
 	color: #4D81A0;
 }
+/* Horoscopes */
 .horoscopes-block {
 	float: left;
 	background-color: #fff;
@@ -114,6 +118,7 @@ b {
 .mg-1 {
 	margin-top: 20px;
 }
+/* News */
 .news {
 	float: left;
 }
@@ -136,6 +141,7 @@ b {
 	margin: 8px 0 10px 0;
 	border-bottom: 2px solid #DADEE0;
 }
+/* Competitions */
 .competitions {
 	border: 1px solid #dadada ;
 	background-color: white;
