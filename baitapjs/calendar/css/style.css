@@ -16,14 +16,30 @@ td {
 td:hover {
 	border: 1px solid red;
 }
+select {
+	height: 30px;
+	color: blue;
+	font-weight: bold;
+}
 .container {
 	margin: 10px 0px 0px 300px;
 	position: relative;
 }
+/* Freames */
 .wrapp {
 	background: white url('../image/girl.jpg') left no-repeat;
 	padding: 300px 0px 0px 380px;
 }
+/* Control */
+.control {
+	font-size: 17pt;
+	font-weight: bold;
+}
+.control td:hover {
+	color: white;
+	background: rgba(255, 110, 180, 0.9);
+}
+/* Weekdays */
 .weekdays {
 	font-size: 15pt;
 	font-weight: bold;
@@ -41,17 +57,4 @@ td:hover {
 	font-weight: bold;
 	padding: 10px 10px 10px 30px;
 	width: 325px;
-}
-.control {
-	font-size: 17pt;
-	font-weight: bold;
-}
-.control td:hover {
-	color: white;
-	background: rgba(255, 110, 180, 0.9);
-}
-select {
-	height: 30px;
-	color: blue;
-	font-weight: bold;
 }

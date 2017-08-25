@@ -8,29 +8,6 @@ body {
 ul {
 	list-style-type: none;
 }
-.body-container {
-	margin: 0px auto;
-	width: 1300px;
-	background-color: #2D2F35;
-	color: #FFF;
-	font-size: 10pt;
-}
-.header-logo {
-	color: #2d2f35;
-	border-bottom: 1px solid #474A51;
-}
-.banner {
-	width: 1300px;
-	border-bottom: 1px solid #474A51;
-	float: left;
-	position: relative;
-	background: url('../image/bg_home_intro.gif') repeat bottom;
-}
-.banner-left {
-	float: left;
-	padding: 1px 20px 50px 120px;
-	margin: 4px;
-}
 h3,
 h4,
 h5 {
@@ -42,6 +19,31 @@ h5 {
 }
 h5 {
 	font-size: 18pt; !important;
+}
+/* Body container */
+.body-container {
+	margin: 0px auto;
+	width: 1300px;
+	background-color: #2D2F35;
+	color: #FFF;
+	font-size: 10pt;
+}
+.header-logo {
+	color: #2d2f35;
+	border-bottom: 1px solid #474A51;
+}
+/* Banner */
+.banner {
+	width: 1300px;
+	border-bottom: 1px solid #474A51;
+	float: left;
+	position: relative;
+	background: url('../image/bg_home_intro.gif') repeat bottom;
+}
+.banner-left {
+	float: left;
+	padding: 1px 20px 50px 120px;
+	margin: 4px;
 }
 .banner-left p {
 	width: 420px;
@@ -55,6 +57,7 @@ h5 {
 .clear {
 	clear: both;
 }
+/* List Feature */
 .list-feature {
 	float: left;
 	margin: 40px 0 20px 12px;
@@ -73,6 +76,7 @@ h5 {
 	top: 1px;
 	right: 2px;
 }
+/* Contact */
 .contact {
 	border-top: 1px solid #474A51;
 	padding: 3px 0px 1px 0px;
@@ -91,6 +95,7 @@ h5 {
 .contact-right {
 	background: url('../image/home_services_bg_marketing.gif') 1% 2% no-repeat; ;
 }
+/* Footer */
 .footer {
 	background: #24262A url("../image/bg_footer.gif") no-repeat center;
 	border: 1px solid #474A51;
