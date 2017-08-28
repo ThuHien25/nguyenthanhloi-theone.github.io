@@ -34,6 +34,8 @@ function createCalendar(valueYear, valueMon) {
         calendar[i].className = "white space";
     }
     for (i = 1; i <= lastDate; i++) {//Write calendar
+        if (i < 10)
+            i = "0" + i;
         calendar[iDay].innerHTML = i;
         calendar[iDay].className = "white";
         iDay++;
@@ -129,7 +131,10 @@ function chooseDay() {
         calendar[i].addEventListener("click", function() {
             var dayCheck = this.innerHTML;
             if (dayCheck != "") {
-                show_DMY.value = dayCheck + "/" + (cur_Mon + 1) + "/" + cur_Year;
+                tmp = cur_Mon + 1;
+                if (tmp < 10)
+                    tmp = "0" + tmp;
+                show_DMY.value = dayCheck + "/" + tmp + "/" + cur_Year;
                 table_calendar.style.display = "none";
             }
         });

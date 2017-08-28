@@ -7,26 +7,26 @@
 </head>
 <body>
 	<div class="container">
-		<form action="POST">
+		<form>
 			<table>
 				<tr>
 					<td>Username:</td>
 					<td>
-						<input type="text" name="username" onchange="checkInputUserName()">
+						<input type="text" name="username" onchange="checkInputUserName()" placeholder="username">
 						<span id="error_username"></span>
 					</td>
 				</tr>
 				<tr>
-					<td>Passwork:</td>
+					<td>Password:</td>
 					<td>
-						<input type="password" name="password"  onchange="checkInputPassword()">
+						<input type="password" name="password"  onchange="checkInputPassword()" placeholder="*********">
 						<span id="error_password"></span>
 					</td>
 				</tr>
 				<tr>
 					<td>Email:</td>
 					<td>
-						<input type="email" name="email"  onchange="checkInputEmail()">
+						<input type="email" name="email"  onchange="checkInputEmail()" placeholder="ex: abc@gmail.com">
 						<span id="error_email"></span>
 					</td>
 				</tr>
@@ -34,9 +34,9 @@
 					<td>Birthday:</td>
 					<td>
 						<div onclick="showCalendar()">
-					    	<input id="show_DMY" name="birthday" class="" value="--/--/----" onchange="checkInputBirthday()" disabled>
+					    	<input type="text" id="show_DMY" name="birthday" placeholder="--/--/----" onchange="checkInputBirthday()">
+					    	<span id="error_birthday"></span>
 					    </div>
-					    <span id="error_birthday"></span>
 					    <table id="table_calendar" class="table-calendar" >
 					        <tr class="control">
 					            <td onclick="btnYear(-1)">
@@ -139,17 +139,16 @@
 					</td>
 				</tr>
 				<tr>
-					<td>
-
-					</td>
-					<td>
-						<button onclick="">Xác nhận</button>
-						<button onclick="">Resert</button>
+					<td colspan="2">
+						<button type="button" onclick="clickSubmit()">SUBMIT</button>
+						<button type="button" onclick="clickRefresh()">REFRESH</button>
 					</td>
 				</tr>
 			</table>
 		</form>
+		
 	</div>
+	<div id="txtHint"></div>
 	<script type="text/javascript" src="js/formajax.js"></script>
 	<script type="text/javascript" src="js/calendar.js"></script>
 </body>
