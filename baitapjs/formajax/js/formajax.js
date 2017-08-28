@@ -1,8 +1,9 @@
 /*
  * Feature FormAjax
  * Auth: Thanh Loi
- * Idea: Check all value of input. Event Onkeyup for input type text
+ * Idea: Check all value of input. Event onchange for input type text
  */
+
 
 
 /*
@@ -25,6 +26,9 @@
  		check_username.innerHTML = "Do not accept special characters";
  		return false;
  	}
+ 	var url = "formvalidate.php?usernamex=" + txb_useruame;
+ 	ajaxFeature("error_username",url);
+ 	check_username.innerHTML = "OK";
  	return true;
  }
 
@@ -36,9 +40,14 @@ function checkInputPassword() {
  	var check_password = document.getElementById("error_password");
  	check_password.innerHTML = "";
  	if (txb_password.length < 8) {
- 		check_password.innerHTML = "Passwork length min 8 letter!!!";
+ 		check_password.innerHTML = "Password length min 8 letter!!!";
  		return false;
  	}
+ 	if (txb_password.length > 30) {
+ 		check_password.innerHTML = "Password length max 30 letter!!!";
+ 		return false;
+ 	}
+ 	check_password.innerHTML = "OK";
  	return true;
 }
 
@@ -55,6 +64,7 @@ function checkInputEmail() {
  		check_email.innerHTML = "Email not format!!!";
  		return false;
  	}
+ 	check_email.innerHTML = "OK";
  	return true;
 }
 
@@ -65,6 +75,15 @@ function checkInputBirthday() {
 	var txb_birthday = document.getElementsByName("birthday")[0].value;
  	var check_birthday = document.getElementById("error_birthday");
  	check_birthday.innerHTML = "";
+ 	var rule = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+ 	var regexp_birthday = new RegExp(rule);
+ 	if(!regexp_birthday.test(txb_birthday)) {
+        check_birthday.innerHTML = "Birthday Fomat InCorrect";
+        return false;
+ 	}
+ 	check_birthday.innerHTML = "OK";
+ 	return true;
+    
 }
 
 /**
@@ -75,10 +94,63 @@ function checkInputBirthday() {
 function isSpecialCharacterRegExp(strcheck) {
 	// special character 
 	var rule = /\`|\~|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\+|\=|\[|\{|\]|\}|\||\\|\'|\<|\,|\>|\?|\/|\"|\;|\:|\s/g;
-	var checkRegex = new RegExp(rule);
+	var check_Regex = new RegExp(rule);
 	// Check have specical character
-	if (!checkRegex.test(strcheck)) {
+	if (!check_Regex.test(strcheck)) {
 		return false;
 	}
 	return true;
 }
+
+/*
+ * Click REFRESH All input empty
+ */
+ function clickRefresh() {
+ 	var input_list = document.getElementsByTagName("input");
+ 	var i;
+ 	for (i = 0; i < input_list.length; i++) {
+ 		input_list[i].value = "";
+ 	}
+ 	document.getElementById("error_username").innerHTML = "";
+	document.getElementById("error_password").innerHTML = "";
+	document.getElementById("error_email").innerHTML = "";
+	document.getElementById("error_birthday").innerHTML = "";
+ }
+
+/*
+ * click button submit -> Ajax to formvalidate.php
+ * check if username exist then return false (show error)
+ */
+ function clickSubmit() {
+ 	document.getElementById("txtHint").innerHTML = "";
+ 	//check all input
+ 	if (checkInputUserName() && checkInputPassword() && checkInputEmail() && checkInputBirthday()) {
+ 		var value_username = document.getElementsByName("username")[0].value;
+ 		var value_password = document.getElementsByName("password")[0].value;
+ 		var value_email = document.getElementsByName("email")[0].value;
+ 		var value_birthday = document.getElementsByName("birthday")[0].value;
+ 		var url = "formvalidate.php?username=" + value_username + "&password=" +
+ 		value_password + "&email=" + value_email + "&birthday=" + value_birthday;
+ 		ajaxFeature("txtHint",url);
+ 	}
+ }
+
+ /*
+  * Function ajax
+  */
+  function ajaxFeature(id_show,url_php) {
+  	if (window.XMLHttpRequest) {
+ 			xmlhttp = new XMLHttpRequest();
+ 		} else {
+ 			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+ 		}
+ 		xmlhttp.onreadystatechange = function() {
+ 			if (this.readyState == 4 && this.status == 200) {
+ 				document.getElementById(id_show).innerHTML = this.responseText;
+ 			} else {
+ 				console.log("Http error " + this.status + ":" + this.statusText);
+ 			}
+ 		};
+ 		xmlhttp.open("GET",url_php,true);
+ 		xmlhttp.send();
+  }
