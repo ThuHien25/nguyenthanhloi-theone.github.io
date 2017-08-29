@@ -26,9 +26,12 @@
  		check_username.innerHTML = "Do not accept special characters";
  		return false;
  	}
- 	var url = "formvalidate.php?usernamex=" + txb_useruame;
- 	ajaxFeature("error_username",url);
- 	check_username.innerHTML = "OK";
+	/*
+	 * //Ajax check username in database
+ 	 * var url = "formvalidate.php?usernamex=" + txb_useruame;
+ 	 * ajaxFeature("error_username",url);
+ 	 */
+	check_username.innerHTML = "OK";
  	return true;
  }
 
@@ -148,7 +151,7 @@ function isSpecialCharacterRegExp(strcheck) {
  			if (this.readyState == 4 && this.status == 200) {
  				document.getElementById(id_show).innerHTML = this.responseText;
  			} else {
- 				console.log("Http error " + this.status + ":" + this.statusText);
+ 				document.getElementById("txtHint").innerHTML = "Not Connect to Server";
  			}
  		};
  		xmlhttp.open("GET",url_php,true);
