@@ -35,7 +35,7 @@ ul {
 	background: url('../image/logo.jpg') center no-repeat;
 }
 .logo p {
-	margin: 40px 0px 0px 50px;
+	margin: 40px 0 0 50px;
 	color: black;
 	text-align: center;
 	font-size: 26pt;
@@ -63,7 +63,7 @@ ul {
 }
 .container {
 	width: 900px;
-	margin: 13px 0px 10px 70px;
+	margin: 13px 0 10px 70px;
 	padding-bottom: 30px;
 }
 /* Main */
@@ -81,7 +81,7 @@ ul {
 	width: 218px;
 	background-color: #1F1F1F;
 	padding: 38px 15px 10px 15px;
-	margin: 0px 36px 20px 0px;
+	margin: 0 36px 20px 0;
 }
 .main-left p {
 	font-size: 10pt;
@@ -116,7 +116,7 @@ ul {
 	margin-bottom: 6px;
 }
 .content-more {
-	margin: 14px 0px 16px 0px ;
+	margin: 14px 0 16px 0px ;
 }
 .content-website {
 	border-top: 1px dotted #2A2A2A;
