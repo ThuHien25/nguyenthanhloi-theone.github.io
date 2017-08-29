@@ -8,29 +8,19 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a {
-	text-decoration: none;
-}
-ul {
-	list-style-image: url('../image/list2.gif');
-}
+a { text-decoration: none; }
+ul { list-style-image: url('../image/list2.gif'); }
 /* Container */
-.container {
-	margin: 50px auto 20px 80px;
-}
+.container { margin: 50px auto 20px 80px; }
 /* Collum Left */
 .col-left {
 	padding-bottom: 20px;
 	float: left;
 	width: 460px;
 }
-.de-thi {
-	margin: 18px 10px 32px 0px;
-}
+.de-thi { margin: 18px 10px 32px 0px; }
 /* Info Content */
-.info {
-	width: 400px;
-}
+.info { width: 400px; }
 .info-img {
 	float: left;
 	margin: 0 28px 28px 0;
@@ -40,27 +30,19 @@ ul {
 	max-width: 150px;
 	max-height: 108px;
 }
-.info-container {
-	float: left;	
-}
+.info-container { float: left; }
 .info-content {
 	line-height: 1.5;
 	width: 426px;
 }
-.info-white {
-	color: #FFF;
-}
-.space {
-	padding-left: 20px;
-}
+.info-white { color: #FFF; }
+.space { padding-left: 20px; }
 .more-info {
 	color: white;
 	padding-left: 18px;
 	background: url('../image/list3.gif') no-repeat left top;
 }
-.info-link {
-	margin: 90px 10px 15px 20px;
-}
+.info-link { margin: 90px 10px 15px 20px; }
 .info-title {
 	float: left;
 	color: white;
@@ -70,9 +52,7 @@ ul {
 	padding-bottom: 10px;
 	border-top: 1px dotted #3f3f41;
 }
-.pd-1 {
-	margin-left: 20px;
-}
+.pd-1 { margin-left: 20px; }
 /* Collum Right */
 .col-right {
 	padding: 70px 20px 10px 20px;
@@ -85,12 +65,8 @@ ul {
 	border-top: 1px solid #464646;
 	padding: 30px 10px 10px 10px;
 }
-.img-right img {
-	border-radius: 15px;
-}
-.clear {
-	clear: both;
-}
+.img-right img { border-radius: 15px; }
+.clear { clear: both; }
 .col-link li {
 	margin: 10px 0 0 10px;
 	float: left;
@@ -100,19 +76,9 @@ ul {
 	color: #595959;
 	text-decoration: underline;
 }
-.content-right {
-	padding-left: 8px;
-}
-.box-text {
-	margin-bottom: 58px;
-}
-.box-text span {
-	color: white;
-}
+.content-right { padding-left: 8px; }
+.box-text { margin-bottom: 58px; }
+.box-text span { color: white; }
 /* Font size  */
-.size-small {
-	font-size: 8pt;
-}
-.size-mudium {
-	font-size: 9pt;
-}
+.size-small { font-size: 8pt; }
+.size-mudium { font-size: 9pt; }
