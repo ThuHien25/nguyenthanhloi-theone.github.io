@@ -134,7 +134,8 @@ function isSpecialCharacterRegExp(strcheck) {
  		var value_birthday = document.getElementsByName("birthday")[0].value;
  		var url = "formvalidate.php?username=" + value_username + "&password=" +
  		value_password + "&email=" + value_email + "&birthday=" + value_birthday;
- 		ajaxFeature("txtHint",url);
+ 		//Ajax Submit. Validation Form In PHP
+		//ajaxFeature("txtHint",url);
  	}
  }
 
