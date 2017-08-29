@@ -1,6 +1,6 @@
 body {
 	font-family: arial;
-	font-size: 0.6875em;
+	font-size: .6875em;
 	background-color: #121214;
 	color: #63636e;
 }
@@ -20,9 +20,9 @@ ul {
 }
 /* Collum Left */
 .col-left {
+	padding-bottom: 20px;
 	float: left;
 	width: 460px;
-	padding-bottom: 20px;
 }
 .de-thi {
 	margin: 18px 10px 32px 0px;
@@ -33,7 +33,7 @@ ul {
 }
 .info-img {
 	float: left;
-	margin: 0px 28px 28px 0px;
+	margin: 0 28px 28px 0;
 }
 .info-img img {
 	width: 150px;
@@ -75,11 +75,11 @@ ul {
 }
 /* Collum Right */
 .col-right {
-	background: #232323;
+	padding: 70px 20px 10px 20px;
 	float: left;
 	width: 200px;
 	height: 320px;
-	padding: 70px 20px 10px 20px;
+	background: #232323;
 }
 .img-right {
 	border-top: 1px solid #464646;
@@ -92,9 +92,9 @@ ul {
 	clear: both;
 }
 .col-link li {
+	margin: 10px 0 0 10px;
 	float: left;
 	width: 200px;
-	margin: 10px 0px 0px 10px;
 }
 .col-link a {
 	color: #595959;
